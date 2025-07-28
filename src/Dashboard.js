@@ -23,14 +23,14 @@ const Dashboard = () => {
         <h2>Logo</h2>
         <nav>
           <ul>
-            <li>🏠 Dashboard</li>
-            <li>📊 Analytics</li>
-            <li>📁 Reports</li>
-            <li>⚙️ Settings</li>
+            <li> Dashboard</li>
+            <li> Analytics</li>
+            <li> Reports</li>
+            <li> Settings</li>
           </ul>
         </nav>
 
-        {/* Logout button at the bottom */}
+        {/* logout Button At The Bottom*/}
         <div style={{ marginTop: 'auto' }}>
           <button onClick={handleLogout} className="logout-button">
             Logout
@@ -48,9 +48,9 @@ const Dashboard = () => {
         </header>
 
         <section className="cards-section">
-          <div className="card">📈 Metric 1</div>
-          <div className="card">💰 Metric 2</div>
-          <div className="card">📦 Metric 3</div>
+          <div className="card"> Metric 1</div>
+          <div className="card"> Metric 2</div>
+          <div className="card"> Metric 3</div>
         </section>
 
         <section className="details-section">

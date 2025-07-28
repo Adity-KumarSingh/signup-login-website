@@ -25,14 +25,14 @@ const SignupUI = () => {
         <form onSubmit={handleSignup}>
           <input
             type="email"
-            placeholder="Enter your email"
+            placeholder="Enter Your Email-ID"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
           />
           <input
             type="password"
-            placeholder="Enter your password"
+            placeholder="Enter Your Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
@@ -40,7 +40,7 @@ const SignupUI = () => {
           <button type="submit">Sign Up</button>
         </form>
         <p className="login-link">
-          Already have an account? <a href="/">Login</a>
+          If you already have an account? <a href="/">Login</a>
         </p>
       </div>
     </div>
